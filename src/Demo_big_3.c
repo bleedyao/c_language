@@ -3,6 +3,7 @@ int main()
 {
     int max(int x,int y,int z);
     int a,b,c,result;
+    printf("input three numbers(a,b,c): ");
     scanf("%d,%d,%d",&a,&b,&c);
     result=max(a,b,c);
     printf("max=%d\n",result);
